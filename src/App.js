@@ -29,7 +29,6 @@ function App() {
           </ul>
         </nav>
       </header>
-
       <main>
         <section id="about" className="section">
           <h2>소개</h2>

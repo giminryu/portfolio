@@ -49,19 +49,46 @@ body {
 
 /* 헤더 스타일 */
 .App-header {
-  background: var(--white);
+  background: linear-gradient(135deg, var(--white) 0%, var(--gray-100) 100%);
   padding: 2rem 0;
   color: var(--gray-900);
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .App-header h1 {
   margin: 0;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 800;
   color: var(--gray-900);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+  background: linear-gradient(45deg, var(--gray-900), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-out;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  color: var(--gray-600);
+  margin: 0;
+  font-weight: 500;
+  animation: fadeIn 1s ease-out 0.3s backwards;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--white);
+  z-index: 1000;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--gray-200);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -69,9 +96,10 @@ nav ul {
   padding: 0;
   display: flex;
   gap: 2rem;
-  margin: 1rem 0;
-  border-bottom: 1px solid var(--gray-200);
-  padding-bottom: 1rem;
+  margin: 0;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 nav a {
@@ -89,11 +117,14 @@ nav a:hover {
 /* 메인 컨텐츠 스타일 */
 main {
   flex: 1;
+  padding-top: 4rem;
+  margin-top: 0;
 }
 
 .section {
-  margin: 3rem 0;
+  margin: 2rem 0;
   padding: 0;
+  scroll-margin-top: 5rem;
 }
 
 .section h2 {
@@ -103,6 +134,7 @@ main {
   font-weight: 700;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--gray-200);
+  scroll-margin-top: 5rem;
 }
 
 .section h3 {
@@ -293,12 +325,6 @@ footer {
 
   .App-header h1 {
     font-size: 2rem;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-    padding-bottom: 0.5rem;
   }
 
   .section {
