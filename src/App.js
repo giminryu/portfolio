@@ -171,6 +171,10 @@ function App() {
               <span>Python</span>
             </div>
             <div className="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" alt="Anaconda" />
+              <span>Anaconda</span>
+            </div>
+            <div className="skill-item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" />
               <span>Oracle</span>
             </div>
@@ -183,16 +187,23 @@ function App() {
               <span>Git</span>
             </div>
             <div className="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/subversion/subversion-original.svg" alt="SVN" />
+              <span>SVN</span>
+            </div>
+            <div className="skill-item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" />
               <span>Jenkins</span>
             </div>
             <div className="skill-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="MyBuilder" />
-              <span>MyBuilder</span>
-            </div>
-            <div className="skill-item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="WebSquare" />
               <span>WebSquare</span>
+            </div>
+          </div>
+
+          <h3>기타</h3>
+          <div className="skills-grid">
+            <div className="skill-item">
+              <span>MyBuilder</span>
             </div>
           </div>
         </section>
