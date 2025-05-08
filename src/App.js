@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>류기민</h1>
-        <p>프론트엔드 개발자</p>
+        <p>FrontEnd, BackEnd Developer</p>
         <nav>
           <ul>
             <li><a href="#about">소개</a></li>
@@ -33,25 +33,25 @@ function App() {
       <main>
         <section id="about" className="section">
           <h2>소개</h2>
-          <p>안녕하세요! 저는 6년 이상의 개발 경험을 보유한 프론트엔드 개발자 류기민입니다.</p>
+          <p>안녕하세요! 저는 6년 이상의 개발 경험을 보유한 개발자 류기민입니다.</p>
           <p>통계청, 삼성전자, NHN 등 다양한 대기업 프로젝트에서 Vue.js, Spring, Java 등의 기술 스택을 활용하여 시스템 개발 및 유지보수를 수행했습니다.</p>
           <p>특히 서울대학교 학사행정시스템 유지관리 프로젝트에서 시스템 성능 개선과 UI/UX 개선을 통해 사용자 경험을 향상시킨 경험이 있으며, 통계청 프로젝트를 통해 대용량 데이터 처리와 분석 역량을 보유하고 있습니다.</p>
           
           <h3>핵심 역량</h3>
           <ul>
-            <li>프론트엔드 개발: HTML, CSS, JavaScript, Vue.js, Nuxt.js를 활용한 웹 애플리케이션 개발</li>
-            <li>백엔드 개발: Spring Framework, Java 기반 서버 개발</li>
-            <li>데이터베이스: Oracle, SQL을 활용한 데이터 처리 및 최적화</li>
-            <li>데이터 분석: SQL과 Procedure를 활용한 통계 데이터 분석 및 보도자료 작성</li>
-            <li>시스템 성능: 대용량 데이터 처리 및 시스템 성능 개선</li>
+            <li>✨ 프론트엔드 개발: HTML, CSS, JavaScript, Vue.js, Nuxt.js를 활용한 웹 애플리케이션 개발</li>
+            <li>⚡ 백엔드 개발: Spring Framework, Java 기반 서버 개발</li>
+            <li>💾 데이터베이스: Oracle, SQL을 활용한 데이터 처리 및 최적화</li>
+            <li>📊 데이터 분석: SQL과 Procedure를 활용한 통계 데이터 분석 및 보도자료 작성</li>
+            <li>🚀 시스템 성능: 대용량 데이터 처리 및 시스템 성능 개선</li>
           </ul>
 
           <h3>주요 성과</h3>
           <ul>
-            <li>서울대학교 학사행정시스템 성능 개선으로 시스템 가용성 향상 및 장애 발생 횟수 감소</li>
-            <li>삼성 클라우드 플랫폼 API 연계 개발을 통한 클라우드 서비스 고도화</li>
-            <li>NHN 세이클럽 리뉴얼 프로젝트에서 기존 시스템 분석 및 리빌딩 수행</li>
-            <li>통계청 기업생멸행정통계 시스템 구축 및 운영을 통한 데이터 정제 및 분석 경험</li>
+            <li>🎯 서울대학교 학사행정시스템 성능 개선으로 시스템 가용성 향상 및 장애 발생 횟수 감소</li>
+            <li>☁️ 삼성 클라우드 플랫폼 API 연계 개발을 통한 클라우드 서비스 고도화</li>
+            <li>🔄 NHN 세이클럽 리뉴얼 프로젝트에서 기존 시스템 분석 및 리빌딩 수행</li>
+            <li>📈 통계청 기업생멸행정통계 시스템 구축 및 운영을 통한 데이터 정제 및 분석 경험</li>
           </ul>
         </section>
 
@@ -59,81 +59,81 @@ function App() {
           <h2>프로젝트</h2>
           <div className="project-grid">
             <div className="project-card">
-              <h3>서울대학교 학사행정시스템 유지관리</h3>
-              <p>2023.02.18 ~ 2025.02.28</p>
-              <p>MyBuilder, WebSquare, OZReport, Spring, 전자정부 프레임워크, Jenkins, Jennifer</p>
+              <h3>🎓 서울대학교 학사행정시스템 유지관리</h3>
+              <p>📅 2023.02.18 ~ 2025.02.28</p>
+              <p>🛠️ MyBuilder, WebSquare, OZReport, Spring, 전자정부 프레임워크, Jenkins, Jennifer</p>
               <h4>담당 업무</h4>
               <ul>
-                <li>일반행정(구매, 물품, 재산, 예비군/민방위, 교원인사, 교원 임용, 채용, 증명서발급)</li>
-                <li>학사행정(인터넷증명, 학적, 기초교육)</li>
+                <li>📋 일반행정(구매, 물품, 재산, 예비군/민방위, 교원인사, 교원 임용, 채용, 증명서발급)</li>
+                <li>📚 학사행정(인터넷증명, 학적, 기초교육)</li>
               </ul>
               <h4>업무 성과</h4>
               <ul>
-                <li>시스템 가용성 향상: 기능 장애 발생 횟수 대폭 감소</li>
-                <li>시스템 성능 개선: 대량 데이터 처리 속도 및 사용자 응답 속도 개선</li>
-                <li>신규 기능 개발: 교원인사, 채용시스템 등 다수의 신규 기능 개발 및 시스템 반영</li>
-                <li>UI/UX 개선: 사용자 만족도 향상 및 업무 처리 시간 단축</li>
+                <li>✅ 시스템 가용성 향상: 기능 장애 발생 횟수 대폭 감소</li>
+                <li>⚡ 시스템 성능 개선: 대량 데이터 처리 속도 및 사용자 응답 속도 개선</li>
+                <li>🆕 신규 기능 개발: 교원인사, 채용시스템 등 다수의 신규 기능 개발 및 시스템 반영</li>
+                <li>🎨 UI/UX 개선: 사용자 만족도 향상 및 업무 처리 시간 단축</li>
               </ul>
             </div>
 
             <div className="project-card">
-              <h3>삼성 클라우드 플랫폼(SCP)서비스 고도화</h3>
-              <p>2022.12.01 ~ 2023.01.02</p>
-              <p>Python, Openstack API</p>
+              <h3>☁️ 삼성 클라우드 플랫폼(SCP)서비스 고도화</h3>
+              <p>📅 2022.12.01 ~ 2023.01.02</p>
+              <p>🛠️ Python, Openstack API</p>
               <h4>담당 업무</h4>
               <p>클라우드 플랫폼 환경 구성시 Python을 통한 Openstack API 연계</p>
               <h4>업무 성과</h4>
               <ul>
-                <li>API 연계 자동화: 수동 작업 시간 대폭 감소</li>
-                <li>시스템 안정성: API 연계 오류율 감소</li>
-                <li>운영 효율성: 클라우드 리소스 관리 시간 단축</li>
+                <li>🤖 API 연계 자동화: 수동 작업 시간 대폭 감소</li>
+                <li>🛡️ 시스템 안정성: API 연계 오류율 감소</li>
+                <li>⚡ 운영 효율성: 클라우드 리소스 관리 시간 단축</li>
               </ul>
             </div>
 
             <div className="project-card">
-              <h3>NHN 세이클럽 리뉴얼</h3>
-              <p>2022.07.25 ~ 2022.11.25</p>
-              <p>Vue.js, Vuetify, Nuxt.js, USTRA framework, Oracle</p>
+              <h3>🔄 NHN 세이클럽 리뉴얼</h3>
+              <p>📅 2022.07.25 ~ 2022.11.25</p>
+              <p>🛠️ Vue.js, Vuetify, Nuxt.js, USTRA framework, Oracle</p>
               <h4>담당 업무</h4>
               <p>기 시스템 분석 후 리빌딩 수행</p>
               <h4>업무 성과</h4>
               <ul>
-                <li>시스템 성능: 페이지 로딩 속도 개선</li>
-                <li>코드 품질: 코드 중복률 감소 및 유지보수성 향상</li>
-                <li>사용자 경험: 모바일 사용자 만족도 향상</li>
+                <li>⚡ 시스템 성능: 페이지 로딩 속도 개선</li>
+                <li>📝 코드 품질: 코드 중복률 감소 및 유지보수성 향상</li>
+                <li>📱 사용자 경험: 모바일 사용자 만족도 향상</li>
               </ul>
             </div>
 
             <div className="project-card">
-              <h3>삼성전자(주) 무선사 변경점 관리시스템 고도화</h3>
-              <p>2021.12.08 ~ 2022.05.31</p>
-              <p>HTML5, JSP, JavaScript, Struts Framework, Oracle</p>
+              <h3>📱 삼성전자(주) 무선사 변경점 관리시스템 고도화</h3>
+              <p>📅 2021.12.08 ~ 2022.05.31</p>
+              <p>🛠️ HTML5, JSP, JavaScript, Struts Framework, Oracle</p>
               <h4>담당 업무</h4>
               <p>API 개발 및 시스템 고도화</p>
               <h4>업무 성과</h4>
               <ul>
-                <li>API 개발: 다수의 신규 API 개발 및 구현</li>
-                <li>시스템 안정성: 장애 발생률 감소</li>
-                <li>데이터 처리: 대용량 데이터 처리 속도 향상</li>
+                <li>🔌 API 개발: 다수의 신규 API 개발 및 구현</li>
+                <li>🛡️ 시스템 안정성: 장애 발생률 감소</li>
+                <li>⚡ 데이터 처리: 대용량 데이터 처리 속도 향상</li>
               </ul>
             </div>
 
             <div className="project-card">
-              <h3>통계청 기업생멸행정통계 종합분석시스템</h3>
-              <p>2018.06.20 ~ 2020.12.30</p>
-              <p>Oracle, Miplatform, Java, SQL</p>
+              <h3>📊 통계청 기업생멸행정통계 종합분석시스템</h3>
+              <p>📅 2018.06.20 ~ 2020.12.30</p>
+              <p>🛠️ Oracle, Miplatform, Java, SQL</p>
               <h4>담당 업무</h4>
               <ul>
-                <li>기업생멸 행정통계 DB구축을 위한 데이터 정제</li>
-                <li>통계청 기업생멸행정통계 보도자료 작성</li>
-                <li>기업생멸행정통계 종합분석시스템 운영 및 유지관리</li>
+                <li>📈 기업생멸 행정통계 DB구축을 위한 데이터 정제</li>
+                <li>📰 통계청 기업생멸행정통계 보도자료 작성</li>
+                <li>🔄 기업생멸행정통계 종합분석시스템 운영 및 유지관리</li>
               </ul>
               <h4>업무 성과</h4>
               <ul>
-                <li>데이터 정제: 높은 수준의 데이터 정확도 달성</li>
-                <li>보도자료 작성: 정기적인 보도자료 작성 및 제공</li>
-                <li>시스템 운영: 높은 수준의 시스템 가용성 달성</li>
-                <li>분석 효율성: 통계 데이터 분석 시간 단축</li>
+                <li>✅ 데이터 정제: 높은 수준의 데이터 정확도 달성</li>
+                <li>📊 보도자료 작성: 정기적인 보도자료 작성 및 제공</li>
+                <li>🔄 시스템 운영: 높은 수준의 시스템 가용성 달성</li>
+                <li>⚡ 분석 효율성: 통계 데이터 분석 시간 단축</li>
               </ul>
             </div>
           </div>
@@ -199,13 +199,13 @@ function App() {
 
         <section id="contact" className="section">
           <h2>연락처</h2>
-          <p>전화번호: 010-6683-1753</p>
+          <p>📱 전화번호: 010-6683-1753</p>
           <p>
-            이메일: <span className="email-copy" onClick={handleCopyEmail}>rkm0515@gmail.com</span>
+            📧 이메일: <span className="email-copy" onClick={handleCopyEmail}>rkm0515@gmail.com</span>
             {copyMessage && <span className="copy-message">{copyMessage}</span>}
           </p>
-          <p>GitHub: <a href="https://github.com/giminryu" target="_blank" rel="noopener noreferrer">github.com/giminryu</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/gimin-ryu-97a5b218a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/gimin-ryu-97a5b218a</a></p>
+          <p>💻 GitHub: <a href="https://github.com/giminryu" target="_blank" rel="noopener noreferrer">github.com/giminryu</a></p>
+          <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/gimin-ryu-97a5b218a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/gimin-ryu-97a5b218a</a></p>
         </section>
       </main>
 
