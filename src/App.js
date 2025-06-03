@@ -76,6 +76,7 @@ function App() {
     <p>📅 2022.12 ~ 2025.02</p>
     <p><span>삼성 클라우드 플랫폼(SCP)서비스 고도화 수행</span></p>
     <p><span>서울대학교 통합행정 시스템 운영 및 유지관리 수행</span></p>
+    <p><span>삼성웰스토리 EHS시스템(환경안전시스템) 구축</span></p>
   </li>
 </ul>
         </section>
@@ -83,6 +84,14 @@ function App() {
         <section id="projects" className="section">
           <h2>프로젝트</h2>
           <div className="project-grid">
+            <div className="project-card">
+                <h3>⚙️ 삼성웰스토리 EHS시스템(환경안전시스템) 구축</h3>
+                <p>📅 2025.06.01 ~ 2025.11.30</p>
+                <p>🛠️ Vue.js, Spring Framework, PostgreSQL</p>
+                <h4>담당 업무</h4>
+                <p>BackEnd 개발</p>
+            </div>
+
             <div className="project-card">
               <h3>🎓 서울대학교 학사행정시스템 유지관리</h3>
               <p>📅 2023.02.18 ~ 2025.02.28</p>
