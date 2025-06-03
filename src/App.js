@@ -89,11 +89,7 @@ function App() {
                 <p>📅 2025.06.01 ~ 2025.11.30</p>
                 <p>🛠️ Vue.js, Spring Framework, PostgreSQL</p>
                 <h4>담당 업무</h4>
-                <p>BackEnd 개발</p>
-                <h4>업무 성과</h4>
-                  <ul>
-                    <li>🤖 API 연계</li>
-                  </ul>
+                <p>BackEnd 개발</p>  
             </div>
 
             <div className="project-card">
