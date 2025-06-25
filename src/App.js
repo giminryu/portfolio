@@ -7,7 +7,7 @@ function App() {
   const handleCopyEmail = async () => {
     try {
       await navigator.clipboard.writeText('rkm0515@gmail.com');
-      setCopyMessage('이메일이 복사되었습니다!');
+      setCopyMessage('이메일이 복사되었습니다!!');
       setTimeout(() => setCopyMessage(''), 2000);
     } catch (err) {
       setCopyMessage('복사에 실패했습니다.');
