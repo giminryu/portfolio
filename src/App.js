@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
+import FreelancerCalculator from './FreelancerCalculator'; // 컴포넌트 추가
+import Modal from './Modal';
+
 
 function App() {
   const [copyMessage, setCopyMessage] = useState('');
+  const [showCalculator, setShowCalculator] = useState(false);
+
 
   const handleCopyEmail = async () => {
     try {
@@ -26,13 +31,24 @@ function App() {
             <li><a href="#projects">프로젝트</a></li>
             <li><a href="#skills">기술 스택</a></li>
             <li><a href="#contact">연락처</a></li>
+            <li>
+              <button onClick={() => setShowCalculator(!showCalculator)} style={{cursor:"pointer"}}>
+                프리랜서 계산기
+              </button>
+            </li>
+
           </ul>
         </nav>
       </header>
       <main>
+        {showCalculator && (
+            <Modal onClose={() => setShowCalculator(false)}>
+              <FreelancerCalculator />
+            </Modal>
+        )}
         <section id="about" className="section">
           <h2>소개</h2>
-          <p>안녕하세요! 저는 6년 이상의 개발 경험을 보유한 개발자 류기민입니다.</p>
+          <p>안녕하세요! 저는 7년 이상의 개발 경험을 보유한 개발자 류기민입니다.</p>
           <p>통계청, 삼성전자, NHN 등 다양한 대기업 프로젝트에서 Vue.js, Spring, Java 등의 기술 스택을 활용하여 시스템 개발 및 유지보수를 수행했습니다.</p>
           <p>특히 서울대학교 학사행정시스템 유지관리 프로젝트에서 시스템 성능 개선과 UI/UX 개선을 통해 사용자 경험을 향상시킨 경험이 있으며, 통계청 프로젝트를 통해 대용량 데이터 처리와 분석 역량을 보유하고 있습니다.</p>
           
@@ -89,7 +105,12 @@ function App() {
                 <p>📅 2025.06.01 ~ 2025.11.30</p>
                 <p>🛠️ Vue.js, Spring Framework, PostgreSQL</p>
                 <h4>담당 업무</h4>
-                <p>BackEnd 개발</p>  
+                <p>BackEnd 개발</p>
+              <h4>업무 성과</h4>
+              <ul>
+                <li>✅ SOAP 통신을 활용한 SAP interface 구축 </li>
+                <li>🆕 RESTful API</li>
+              </ul>
             </div>
 
             <div className="project-card">
