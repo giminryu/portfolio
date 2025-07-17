@@ -352,6 +352,35 @@ footer {
   animation: fadeIn 0.5s ease-out;
 }
 
+.calculator-btn {
+  padding: 6px 14px;                 /* 메뉴 글씨에 맞게 패딩 줄임 */
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #5aafff 0%, #2166d6 100%);
+  color: #fff;
+  font-size: 1rem;                   /* 메뉴와 비슷한 폰트 크기 */
+  font-weight: 500;                  /* 너무 두껍지 않게 */
+  line-height: 1.5;                  /* 메뉴 글씨 높이에 맞춤 */
+  vertical-align: middle;            /* 메뉴 글씨와 수직 정렬 맞춤 */
+  margin-left: 8px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.14s, box-shadow 0.21s, background 0.18s;
+  box-shadow: 0 1px 6px 0 rgb(90 175 255 / 10%);
+  outline: none;
+}
+
+.calculator-btn:hover, .calculator-btn:focus {
+  background: linear-gradient(90deg, #2166d6 0%, #5aafff 100%);
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 3px 12px 0 rgb(90 175 255 / 18%);
+}
+
+.calculator-btn:active {
+  background: #185ec6;
+  transform: scale(0.97);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

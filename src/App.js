@@ -32,8 +32,11 @@ function App() {
             <li><a href="#skills">기술 스택</a></li>
             <li><a href="#contact">연락처</a></li>
             <li>
-              <button onClick={() => setShowCalculator(!showCalculator)} style={{cursor:"pointer"}}>
-                프리랜서 계산기
+              <button
+                className="calculator-btn"
+                onClick={() => setShowCalculator(!showCalculator)}
+            >
+            프리랜서 계산기
               </button>
             </li>
 
